@@ -10,6 +10,8 @@ import reactDom from 'react-dom'
 
 const API_URL = 'https://api.chucknorris.io/jokes/random';
 
+//================================================================= i couldn't realise the favorites list and categories search, only random jokes and responsive layout =============================================================================
+
 const Jokes = () =>{
     const [joke, setJoke] = useState('');
     const [id, setId] = useState('');
